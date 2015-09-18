@@ -1,6 +1,6 @@
 package HelloW;
 
-public class forreachEx {
+public class foreachEx {
 	enum Week{월, 화, 수, 목, 금, 토, 일}
 
 	public static void main(String[] args) {
@@ -8,7 +8,7 @@ public class forreachEx {
 		int[] num={1,2,3,4,5};
 		String names[] = {"사과", "배", "바나나", "체리", "딸기", "포도"};
 		int sum = 0;
-		
+		 
 		for (int k:num)
 			sum +=k;
 		System.out.println("합은"+sum);
