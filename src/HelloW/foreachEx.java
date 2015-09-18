@@ -13,7 +13,7 @@ public class foreachEx {
 			sum +=k;
 		System.out.println("гую╨"+sum);
 		for (String s:names)
-			  
+			
 			System.out.print(s+" ");
 		System.out.println();
 		
