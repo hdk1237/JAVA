@@ -1,15 +1,16 @@
 package HelloW;
 
-class Sample{
+class Sample {
 	public int a;
 	private int b;
 	int c;
-	
-	public int getb(){
+
+	public int getb() {
 		return b;
 	}
-	public void setB(int value){
-		b= value;
+
+	public void setB(int value) {
+		b = value;
 	}
 }
 
@@ -20,8 +21,10 @@ public class AccexxEx {
 		System.out.println("201205040 È²µ¿±æ");
 		Sample aClass = new Sample();
 		aClass.a = 10;
+		System.out.println(aClass.a);
 		aClass.setB(10);
 		aClass.c = 10;
+		System.out.println(aClass.c);
 
 	}
 
